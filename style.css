@@ -21,7 +21,7 @@ body{
     height: 0.55vw;
     display: inline-block;
     background: #F8E7A1;
-    margin: 0.69vw 0px 0px 0.34vw;
+    margin: 0.69vw 0vw 0vw 0.34vw;
     font: normal;
     font-weight: 700;
     font-size: 2.22vw;
@@ -73,7 +73,7 @@ body{
     color: #868490;
 }
 .headerName{
-    margin: 0px;
+    margin: 0;
     font-style: normal;
     font-weight: 600;
     font-size: 5.55vw;
@@ -97,13 +97,13 @@ body{
     color: #868490;
 }
 .letsTalkText{ 
-    margin: 0px;
+    margin: 0vw;
     font-weight: 400;
     font-size: 1.38vw;
     color: #F8E7A1;
 }
 .svgArrow{
-    margin: 0px 0px 0px 3.47vw;
+    margin: 0vw 0vw 0vw 3.47vw;
 }
 .firstSectionRight{
     margin-left: 29.86vw;
@@ -132,7 +132,7 @@ body{
     width: 36.875vw;
     height: 61.38vw;
     left: -6.11vw;
-    top: 53.88;
+    top: 53.88vw;
     background: linear-gradient(180deg, rgba(47, 69, 188, 0.9) 0%, rgba(47, 188, 188, 0) 100%);
     filter: blur(50px);
     z-index: -1;
@@ -174,11 +174,11 @@ body{
     color: #868490;
 }
 .recInSecondSection{
-    margin: 0px 0px 1.94vw 6.94vw;
-    width: 692px;
-    height: 184px;
+    margin: 0vw 0vw 1.94vw 6.94vw;
+    width: 48.05vw;
+    height: 12.77vw;
     background: rgba(9, 20, 39, 0.8);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 0.069vw solid rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(4.5px);
     border-radius: 0.41vw;
     display: flex;
@@ -216,7 +216,7 @@ body{
     position: absolute;
     width: 71.666vw;
     height: 95.625vw;
-    left: 30.20vw;
+    left: 24vw;
     top: 131.45vw;
     background: linear-gradient(216.32deg, #8B3D4C 13.28%, rgba(79, 52, 159, 0) 101.61%);
     filter: blur(60px);
@@ -280,14 +280,14 @@ body{
     height: 37.5vw;
 }
 .designItem{
-    margin: 0px 0px 0px 5.55vw;
+    margin: 0vw 0vw 0vw 5.55vw;
     font-weight: 500;
     font-size: 6.94vw;
     line-height: 10.41vw;
     color: #FFFFFF;
 }
 .textInFourthSection{
-    margin: 0px 0px 0px 5.55vw;
+    margin: 0vw 0vw 0vw 5.55vw;
     width: 50vw;
     height: 22.91vw;
     font-weight: 600;
@@ -319,7 +319,7 @@ body{
     z-index: -1;
 }
 .footerText{
-    margin: 3.47vw 0px 0px 8.33vw;
+    margin: 3.47vw 0vw 0vw 8.33vw;
     font-weight: 500;
     font-size: 1.66vw;
     line-height: 2.5vw;
