@@ -295,3 +295,40 @@ body{
     line-height: 66px;
     color: #FFFFFF;
 }
+.fifthSection{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.pInFifthSection{
+    margin-top: 30px;
+    width: 692px;
+    height: 279px;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 93px;
+    color: #FFFFFF;
+}
+.lastRec{
+    position: absolute;
+    width: 1471px;
+    height: 182px;
+    left: 0px;
+    top: 4900px;
+    background: #091427;
+    z-index: -1;
+}
+.footerText{
+    margin: 50px 0px 0px 120px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.footerIconsDiv{
+    margin-left: 120px;
+    margin-top: 24px;
+}
+.footerIcons{
+    margin-right: 40px;
+}
