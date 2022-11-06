@@ -181,7 +181,117 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(4.5px);
     border-radius: 6px;
+    display: flex;
+    flex-direction: row;
 }
 .ImageInSecondSection{
     border-radius: 10px;
+    margin: 40px;
+}
+.divInsideRecInSecondSection{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.h2InsideRecInSecondSection{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.h4InsideRecInSecondSection{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #868490;
+    margin-top: 10px;
+}
+.svgInRecInSecondSection{
+    margin: auto;
+    width: 44px;
+    height: 44px;
+}
+.vector3{
+    position: absolute;
+    width: 1032px;
+    height: 1377px;
+    left: 435px;
+    top: 1893px;
+    background: linear-gradient(216.32deg, #8B3D4C 13.28%, rgba(79, 52, 159, 0) 101.61%);
+    filter: blur(60px);
+    z-index: -1;
+}
+.thirdSection{
+    margin-top: 200px;
+    width: 1200px;
+    height: 993px;
+    background: rgba(9, 20, 39, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 6px;
+    padding-top: 165px;
+    position: flex;
+}
+.divInThirdSection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.h1InThirdSection{
+    position: absolute;
+    width: 431px;
+    height: 93px;
+    left: 40px;
+    top: 0px;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 93px;
+    color: #FFFFFF;
+}
+.wrapElements{
+    margin: auto;
+}
+.rectangleInWrappedElements{
+    background: rgba(16, 27, 46, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 0px 0px 12px 12px;
+    width: 360px;
+    height: 114px;
+}
+#textInElements{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+#text2InElements{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #868490;
+}
+.fourthSection{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.imgInFourthSection{
+    width: 400px;
+    height: 540px;
+}
+.designItem{
+    margin: 0px 0px 0px 80px;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 150px;
+    color: #FFFFFF;
+}
+.textInFourthSection{
+    margin: 0px 0px 0px 80px;
+    width: 720px;
+    height: 330px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
 }
