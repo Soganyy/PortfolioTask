@@ -2,8 +2,8 @@
 
 body{
     background: #030E21;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 8.33vw;
+    padding-right: 8.33vw;
     font-family: 'Poppins', sans-serif;
 }
 .nav{
@@ -17,122 +17,122 @@ body{
 }
 .dot{
     border-radius: 50%;
-    width: 8px;
-    height: 8px;
+    width: 0.55vw;
+    height: 0.55vw;
     display: inline-block;
     background: #F8E7A1;
-    margin: 10px 0px 0px 5px;
+    margin: 0.69vw 0px 0px 0.34vw;
     font: normal;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 2.22vw;
+    line-height: 3.33vw;
 }
 .navRightSide{
     display: flex;
     flex-direction: row;
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: 0.69vw;
 }
 .navP{
-    margin-left: 30px;
+    margin-left: 2.08vw;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.25vw;
+    line-height: 1.87vw;
     text-align: right;
     color: rgba(255, 255, 255, 0.7);
 }
 .vector1{
     position: absolute;
-    width: 900px;
-    height: 594.77px;
-    left: 473.54px;
-    top: -89px;
+    width: 62.5vw;
+    height: 41.31vw;
+    left: 32.84vw;
+    top: -6.18vw;
     background: linear-gradient(180deg, rgba(47, 69, 188, 0.9) 0%, rgba(47, 188, 188, 0) 100%);
-    filter: blur(60px);
+    filter: blur(4.16vw);
     z-index: -10;
 }
 .imgStandingMan{
     position: absolute;
-    width: 510px;
-    height: 727px;
-    left: 527px;
-    top: 180px;
+    width: 35.41vw;
+    height: 50.48vw;
+    left: 36.59vw;
+    top: 12.5vw;
     z-index: -1;
 }
 .firstSection{
-    margin-top: 100px;
+    margin-top: 6.94vw;
     display: flex;
     flex: row;
 }
 .textUIUX{
-    margin-bottom: 12px;
+    margin-bottom: 0.83vw;
     font-style: normal;
     font-weight: 600;
-    font-size: 47px;
-    line-height: 70px;
+    font-size: 3.26vw;
+    line-height: 4.86vw;
     color: #868490;
 }
 .headerName{
     margin: 0px;
     font-style: normal;
     font-weight: 600;
-    font-size: 80px;
-    line-height: 120px;
+    font-size: 5.55vw;
+    line-height: 8.33vw;
     color: #FFFFFF;
 }
 .rectangle1{
     display: inline-block;
     background: #F8E7A1;
-    width: 183px;
-    height: 8px;
-    margin-top: 32px;
+    width: 12.70;
+    height: 0.55vw;
+    margin-top: 2.22vw;
 }
 .contentGray{
-    margin-top: 40px;
-    width: 387px;
-    height: 216px;
+    margin-top: 2.77vw;
+    width: 26.875vw;
+    height: 15vw;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.38vw;
+    line-height: 2.05vw;
     color: #868490;
 }
 .letsTalkText{ 
     margin: 0px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.38vw;
     color: #F8E7A1;
 }
 .svgArrow{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 3.47vw;
 }
 .firstSectionRight{
-    margin-left: 430px;
+    margin-left: 29.86vw;
 }
 .altDiv{
-    width: 131px;
-    height: 192px;
-    margin-bottom: 93px;
+    width: 9.09vw;
+    height: 13.33vw;
+    margin-bottom: 6.45vw;
 }
 .altDivHeader{
     margin: 0;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.66vw;
+    line-height: 2.05vw;
     color: #868490;
 }
 .altDivHeader2{
     margin: 0;
     font-weight: 600;
-    font-size: 72px;
-    line-height: 108px;
+    font-size: 5vw;
+    line-height: 7.5vw;
     color: #FFFFFF;
 }
 .vector2{
     position: absolute;
-    width: 531px;
-    height: 884px;
-    left: -88px;
-    top: 776px;
+    width: 36.875vw;
+    height: 61.38vw;
+    left: -6.11vw;
+    top: 53.88;
     background: linear-gradient(180deg, rgba(47, 69, 188, 0.9) 0%, rgba(47, 188, 188, 0) 100%);
     filter: blur(50px);
     z-index: -1;
@@ -141,11 +141,11 @@ body{
 .logoRectangle{
     position: absolute;
     left: 0px;
-    top: 1027px;
+    top: 71.31vw;
     display: flex;
     flex-direction: row;
-    width: 1470px;
-    height: 200px;
+    width: 100vw;
+    height: 13.88vw;
     background: rgba(9, 20, 39, 0.6);
     backdrop-filter: blur(4px);
 }
@@ -153,83 +153,83 @@ body{
     margin: auto;
 }
 .secondSection{
-    margin-top: 350px;
+    margin-top: 24.30vw;
     display: flex;
     flex-direction: row;
 }
 .headerInSecondSectionLeft{
-    width: 429px;
-    height: 186px;
+    width: 29.79vw;
+    height: 12.91vw;
     font-weight: 600;
-    font-size: 62px;
-    line-height: 93px;
+    font-size: 4.30vw;
+    line-height: 6.45vw;
     color: #FFFFFF;
 }
 .pInSecondSection{
-    width: 429px;
-    height: 180px;
+    width: 29,79vw;
+    height: 7.5vw;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 1.38 vw;
+    line-height: 2.5vw;
     color: #868490;
 }
 .recInSecondSection{
-    margin: 0px 0px 28px 100px;
+    margin: 0px 0px 1.94vw 6.94vw;
     width: 692px;
     height: 184px;
     background: rgba(9, 20, 39, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(4.5px);
-    border-radius: 6px;
+    border-radius: 0.41vw;
     display: flex;
     flex-direction: row;
 }
 .ImageInSecondSection{
-    border-radius: 10px;
-    margin: 40px;
+    border-radius: 0.69vw;
+    margin: 2.77vw;
 }
 .divInsideRecInSecondSection{
     display: flex;
     flex-direction: row;
-    width: 900px;
+    width: 62.5vw;
 }
 .h2InsideRecInSecondSection{
     font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 2.77vw;
+    line-height: 4.16vw;
     color: #FFFFFF;
     margin-bottom: 0;
 }
 .h4InsideRecInSecondSection{
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.66vw;
+    line-height: 2.5vw;
     color: #868490;
-    margin-top: 10px;
+    margin-top: 0.69vw;
 }
 .svgInRecInSecondSection{
     margin: auto;
-    width: 44px;
-    height: 44px;
+    width: 3.05vw;
+    height: 3.05vw;
 }
 .vector3{
     position: absolute;
-    width: 1032px;
-    height: 1377px;
-    left: 435px;
-    top: 1893px;
+    width: 71.666vw;
+    height: 95.625vw;
+    left: 30.20vw;
+    top: 131.45vw;
     background: linear-gradient(216.32deg, #8B3D4C 13.28%, rgba(79, 52, 159, 0) 101.61%);
     filter: blur(60px);
     z-index: -1;
 }
 .thirdSection{
-    margin-top: 200px;
-    width: 1200px;
-    height: 993px;
+    margin-top: 13.88vw;
+    width: 83.33vw;
+    height: 68.95vw;
     background: rgba(9, 20, 39, 0.6);
     backdrop-filter: blur(2px);
-    border-radius: 6px;
-    padding-top: 165px;
+    border-radius: 0.41vw;
+    padding-top: 11.45vw;
     position: flex;
 }
 .divInThirdSection{
@@ -239,13 +239,13 @@ body{
 }
 .h1InThirdSection{
     position: absolute;
-    width: 431px;
-    height: 93px;
-    left: 40px;
+    width: 29.93vw;
+    height: 6.45vw;
+    left: 2.77vw;
     top: 0px;
     font-weight: 600;
-    font-size: 62px;
-    line-height: 93px;
+    font-size: 4.3vw;
+    line-height: 6.45vw;
     color: #FFFFFF;
 }
 .wrapElements{
@@ -254,81 +254,81 @@ body{
 .rectangleInWrappedElements{
     background: rgba(16, 27, 46, 0.3);
     backdrop-filter: blur(4px);
-    border-radius: 0px 0px 12px 12px;
-    width: 360px;
-    height: 114px;
+    border-radius: 0vw 0vw 0.83vw 0.83vw;
+    width: 25vw;
+    height: 7.91vw;
 }
 #textInElements{
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.66vw;
+    line-height: 2.5vw;
     color: #FFFFFF;
 }
 #text2InElements{
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
     color: #868490;
 }
 .fourthSection{
-    margin-top: 200px;
+    margin-top: 13.88vw;
     display: flex;
     flex-direction: row;
 }
 .imgInFourthSection{
-    width: 400px;
-    height: 540px;
+    width: 27.77vw;
+    height: 37.5vw;
 }
 .designItem{
-    margin: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 5.55vw;
     font-weight: 500;
-    font-size: 100px;
-    line-height: 150px;
+    font-size: 6.94vw;
+    line-height: 10.41vw;
     color: #FFFFFF;
 }
 .textInFourthSection{
-    margin: 0px 0px 0px 80px;
-    width: 720px;
-    height: 330px;
+    margin: 0px 0px 0px 5.55vw;
+    width: 50vw;
+    height: 22.91vw;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 66px;
+    font-size: 3.33vw;
+    line-height: 4.58vw;
     color: #FFFFFF;
 }
 .fifthSection{
-    margin-top: 300px;
+    margin-top: 20.83vw;
     display: flex;
     flex-direction: row;
 }
 .pInFifthSection{
-    margin-top: 30px;
-    width: 692px;
-    height: 279px;
+    margin-top: 2.08vw;
+    width: 48.05vw;
+    height: 19.375vw;
     font-weight: 600;
-    font-size: 62px;
-    line-height: 93px;
+    font-size: 4.30vw;
+    line-height: 6.45vw;
     color: #FFFFFF;
 }
 .lastRec{
     position: absolute;
-    width: 1471px;
-    height: 182px;
+    width: 100vw;
+    height: 12.63vw;
     left: 0px;
-    top: 4900px;
+    top: 340.27vw;
     background: #091427;
     z-index: -1;
 }
 .footerText{
-    margin: 50px 0px 0px 120px;
+    margin: 3.47vw 0px 0px 8.33vw;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.66vw;
+    line-height: 2.5vw;
     color: #FFFFFF;
 }
 .footerIconsDiv{
-    margin-left: 120px;
-    margin-top: 24px;
+    margin-left: 8.33vw;
+    margin-top: 1.66vw;
 }
 .footerIcons{
-    margin-right: 40px;
+    margin-right: 2.77vw;
 }
