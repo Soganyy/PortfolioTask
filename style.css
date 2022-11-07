@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
+    margin: 0;
     background: #030E21;
     padding-left: 8.33vw;
     padding-right: 8.33vw;
@@ -134,23 +135,39 @@ body{
     left: -6.11vw;
     top: 53.88vw;
     background: linear-gradient(180deg, rgba(47, 69, 188, 0.9) 0%, rgba(47, 188, 188, 0) 100%);
-    filter: blur(50px);
+    filter: blur(3.47vw);
     z-index: -1;
     transform: rotate(45deg);
 }
 .logoRectangle{
     position: absolute;
-    left: 0px;
+    left: 0vw;
     top: 71.31vw;
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 98vw;
     height: 13.88vw;
     background: rgba(9, 20, 39, 0.6);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(0.27vw);
 }
 .svgInRectangle{
     margin: auto;
+}
+.behance{
+    width: 19.79vw;
+    height: 7.91vw;
+}
+.dribble{
+    width: 19.79vw;
+    height: 7.56vw;
+}
+.fiverr{
+    width: 15.13vw;
+    height: 7.91vw;
+}
+.upwork{
+    width: 17.56vw;
+    height: 7.56vw;
 }
 .secondSection{
     margin-top: 24.30vw;
@@ -166,10 +183,10 @@ body{
     color: #FFFFFF;
 }
 .pInSecondSection{
-    width: 29,79vw;
+    width: 29.79vw;
     height: 7.5vw;
     font-weight: 400;
-    font-size: 1.38 vw;
+    font-size: 1.38vw;
     line-height: 2.5vw;
     color: #868490;
 }
@@ -179,7 +196,7 @@ body{
     height: 12.77vw;
     background: rgba(9, 20, 39, 0.8);
     border: 0.069vw solid rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(4.5px);
+    backdrop-filter: blur(0.31vw);
     border-radius: 0.41vw;
     display: flex;
     flex-direction: row;
@@ -219,7 +236,7 @@ body{
     left: 24vw;
     top: 131.45vw;
     background: linear-gradient(216.32deg, #8B3D4C 13.28%, rgba(79, 52, 159, 0) 101.61%);
-    filter: blur(60px);
+    filter: blur(4.16vw);
     z-index: -1;
 }
 .thirdSection{
@@ -227,44 +244,58 @@ body{
     width: 83.33vw;
     height: 68.95vw;
     background: rgba(9, 20, 39, 0.6);
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(1.138vw);
     border-radius: 0.41vw;
-    padding-top: 11.45vw;
+    padding-top: 13vw;
     position: flex;
 }
 .divInThirdSection{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-left: 2.77vw;
 }
 .h1InThirdSection{
     position: absolute;
     width: 29.93vw;
     height: 6.45vw;
     left: 2.77vw;
-    top: 0px;
+    top: 0vw;
     font-weight: 600;
     font-size: 4.3vw;
     line-height: 6.45vw;
     color: #FFFFFF;
 }
 .wrapElements{
-    margin: auto;
+    padding: 0;
+    margin: 0;
+    /* margin: auto; */
 }
-.rectangleInWrappedElements{
+.imgInWrap{
+    width: 25vw;
+    height: 18.75vw;
+    margin-right: 1.38vw;
+}
+.rectangleInWrappedEelements{
     background: rgba(16, 27, 46, 0.3);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(0.27vw);
     border-radius: 0vw 0vw 0.83vw 0.83vw;
     width: 25vw;
-    height: 7.91vw;
+    height: 7.9vw;
+    margin-right: 1.38vw;
+    margin-bottom: 2.77vw;
+    padding-top: 1.38vw;
 }
 #textInElements{
+    margin: 0;
+    margin-left: 1.38vw;
     font-weight: 500;
     font-size: 1.66vw;
     line-height: 2.5vw;
     color: #FFFFFF;
 }
 #text2InElements{
+    margin-left: 1.38vw;
     font-weight: 400;
     font-size: 1.38vw;
     line-height: 2.08vw;
@@ -309,11 +340,15 @@ body{
     line-height: 6.45vw;
     color: #FFFFFF;
 }
+.lastImage{
+    width: 35.55vw;
+    height: 41.04vw;
+}
 .lastRec{
     position: absolute;
-    width: 100vw;
+    width: 98vw;
     height: 12.63vw;
-    left: 0px;
+    left: 0vw;
     top: 340.27vw;
     background: #091427;
     z-index: -1;
@@ -331,4 +366,6 @@ body{
 }
 .footerIcons{
     margin-right: 2.77vw;
+    width: 3.19vw;
+    height: 3.19vw;
 }
